@@ -1,0 +1,114 @@
+body {
+	background-color: #EDEFEE;
+	font-family: 'Markazi Text', serif;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+h2{
+	font-size: 2rem;
+}
+
+header > img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav a{	
+	text-align: center;
+	font-size: 1.2em;
+	width: 10%;
+	display: inline-block;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #1e442f;
+	padding: 10px 50px;
+	background-color: lavender;
+	border-bottom: 5px solid #5757a0;
+		
+}
+
+nav a:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);	
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav li{	
+	display: inline;		
+}
+
+section{
+	display: flex;
+}
+
+article{
+	flex:1;
+}
+
+footer{
+	display: flex;
+}
+
+footer div{
+	flex:1;
+	
+}
+
+footer div p{
+	text-align: right;
+	font-size: 0.8em;
+	display: block;
+	box-sizing: border-box;
+}
+
+hr{
+	border-color: #5757a0;
+}
+
+#navi article{
+	background-color: lavender;
+	border-radius: 2em ;
+	text-align: center;
+	margin: 10px;
+	font-size:1.2em;
+
+}
+
+#navi article:hover {
+	
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);	
+	box-shadow: inset 0 0 0 3px #5757a0;
+ }
+
+
+ 
+#off{
+	background-image:url(../photo/pasta.webp);	
+	background-size: cover;
+	border-radius: 2em ;
+	text-align: center;
+	margin: 10px;
+	color:rgb(41, 7, 7);
+	font-size:1.2em;
+}
+
